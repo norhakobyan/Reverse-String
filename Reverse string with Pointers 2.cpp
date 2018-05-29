@@ -24,7 +24,7 @@ void reverse_str(char * ch) {
 	}
 	--tmp;
 	char res;
-	while (ch =! tmp) {
+	while (ch != tmp) {
 		res = *ch;
 		*ch++ = *tmp;
 		*tmp-- = res;
